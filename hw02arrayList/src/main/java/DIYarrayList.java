@@ -3,7 +3,7 @@ package ru.otus.homework;
 import java.util.*;
 
 public class DIYarrayList<T> implements List<T> {
-    private static final int BUCKET = 15;
+    private static final int BUCKET = 20;
     private T[] thisArray;
     private int size;
 
