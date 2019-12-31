@@ -11,7 +11,7 @@ import java.util.List;
 public class H2JdbcTemplate implements DbTemplate {
 
     private ReflectionService reflectionService;
-    private SQLService SQLService;
+    private SQLService sqlService;
 
     public H2JdbcTemplate(ReflectionService reflectionService, SQLService sqlService) throws SQLException {
         this.reflectionService = reflectionService;
